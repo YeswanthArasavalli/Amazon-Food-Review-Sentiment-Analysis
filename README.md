@@ -113,27 +113,28 @@ Confidence: 0.94
 
 ## 📁 Project Structure
 
-```
-amazon-food-review/
-├── data/
-│   ├── raw/                      # Original dataset from Kaggle
-│   └── processed/                # Cleaned & preprocessed data for training
+````
+Amazon-Food-Review-Sentiment-Analysis/
+│
+├── data/                      # empty with instructions
+│   ├── raw/                   # Original dataset from Kaggle
+│   └── processed/             # Cleaned & preprocessed data
+│
+├── models/                    # empty or contains placeholder file
+│
 ├── src/
-│   ├── data_loader.py            # Dataset loading and splitting utilities
-│   ├── preprocessing.py          # Text cleaning, tokenization, encoding
-│   ├── train_baseline.py         # TF-IDF + Logistic Regression training
-│   ├── train_transformer.py      # DistilBERT fine-tuning pipeline
-│   └── evaluate.py               # Model evaluation metrics and visualization
-├── notebooks/
-│   └── analysis.ipynb            # Exploratory Data Analysis (EDA)
-├── models/
-│   ├── baseline_model.pkl        # Trained TF-IDF + LR baseline model
-│   ├── distilbert_model/         # Fine-tuned DistilBERT model artifacts
-│   └── tokenizer/                # BERT tokenizer for preprocessing
-├── requirements.txt              # Python dependencies
-├── .gitignore                    # Git ignore patterns
-└── README.md                     # This file
-``````
+│   ├── __init__.py
+│   ├── data_loader.py         # Dataset loading utilities
+│   ├── preprocessing.py       # Text cleaning & tokenization
+│   ├── train_baseline.py      # TF-IDF + Logistic Regression
+│   ├── train_bert.py          # BERT fine-tuning pipeline
+│   └── inference.py           # Model inference/prediction
+│
+├── app.py                     # Gradio/Streamlit application
+├── requirements.txt           # Python dependencies
+├── .gitignore                 # Git ignore patterns
+└── README.md                  # This file
+````````
 
 ---
 
