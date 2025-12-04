@@ -4,7 +4,7 @@
 
 This project performs **sentiment analysis** on 568K+ Amazon Fine Food reviews using both classical NLP and deep learning approaches. It demonstrates end-to-end machine learning workflow: from data preprocessing, baseline modeling, transformer fine-tuning, to deployment on Hugging Face Spaces.
 
-**Live Demo:** [Try it on Hugging Face Spaces](https://huggingface.co/spaces/YeswanthArasavalli/Amazon_Food_Review)
+**Live Demo:** [Try it on Hugging Face Spaces](https://huggingface.co/spaces/YeswanthArasavalli/Amazon_Food_Review_Analysis)
 
 ---
 
